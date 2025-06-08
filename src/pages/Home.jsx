@@ -1,16 +1,10 @@
-import rigoImageUrl from "../assets/img/rigo-baby.jpg";
-import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+const Home = () => {
+    return (
+        <div className="container text-center my-5">
+            <h1>Welcome to the Contact App</h1>
+            <p>Use the navigation bar or go to /contacts to manage your agenda.</p>
+        </div>
+    );
+};
 
-export const Home = () => {
-
-  const {store, dispatch} =useGlobalReducer()
-
-	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-		</div>
-	);
-}; 
+export default Home;
