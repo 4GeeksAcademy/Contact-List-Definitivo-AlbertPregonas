@@ -38,6 +38,17 @@ img {
     object-fit: cover;
 }
 
+.contact_button {
+    width: 150px;
+    height: 50px;
+    background-color: #4ca3ff;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn {
     border: none;
     padding: 6px 10px;
